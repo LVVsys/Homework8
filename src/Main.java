@@ -88,8 +88,6 @@ public class Main {
             if (i != numbers.length - 1) {
                 System.out.print(", ");
             }
-
-
         }
     }
 }
