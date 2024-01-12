@@ -82,12 +82,12 @@ public class Main {
             if (numbers[i] % 2 != 0) {
                 numbers[i]++;
             }
+        }
+        System.out.print(Arrays.toString(numbers));
 
-            System.out.print(numbers[i]);
-
-            if (i != numbers.length - 1) {
-                System.out.print(", ");
+        // if (i != numbers.length - 1) {
+        //  System.out.print(", ");
             }
         }
-    }
-}
+
+
